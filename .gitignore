@@ -1,0 +1,18 @@
+# Raw surveillance data — not redistributable
+data/
+*.csv.gz
+
+# Generated outputs
+output_v2/
+output/
+*.docx
+*.tiff
+
+# Python / R
+__pycache__/
+*.pyc
+.Rhistory
+.RData
+.Rproj.user/
+*.log
+local_paths.json
