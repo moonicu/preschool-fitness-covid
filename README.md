@@ -11,8 +11,6 @@ Analysis code for the manuscript *Post-Pandemic Shifts in Physical Fitness Among
 | `ref/iotf_bmi_lms.csv`, `ref/who0607_bmi_lms.csv`, `ref/iotf_z_cutoffs.csv` | IOTF and WHO 2006/2007 BMI references, exported from the R package `sitar` by `ref/export_lms.R` |
 | `output_example/` | Aggregate result tables produced by the script (no individual records); see the mapping below |
 
-The scripts that assemble the manuscript, response letter and supplementary document from these outputs are not included; they contain manuscript text and are available from the corresponding author.
-
 ## Data
 
 The surveillance records are held by the Seoul Metropolitan Government and were released to the authors under conditions that do not permit redistribution. They are **not** included. The script expects a CSV with the columns
