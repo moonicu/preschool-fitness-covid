@@ -9,7 +9,6 @@ Analysis code for the manuscript *Post-Pandemic Shifts in Physical Fitness Among
 | `analysis_v2.py` | Complete analysis: data processing, age–sex-adjusted regressions, age-group and sex × BMI subgroups with interaction tests, percentiles within 6-month age bands, quantile regression (complementary analysis), sensitivity analyses, missingness audit, figures |
 | `ref/kdca2017_bmi_lms.csv` | Monthly BMI L/M/S parameters of the 2017 Korean National Growth Charts (KDCA, public) |
 | `ref/iotf_bmi_lms.csv`, `ref/who0607_bmi_lms.csv`, `ref/iotf_z_cutoffs.csv` | IOTF and WHO 2006/2007 BMI references, exported from the R package `sitar` by `ref/export_lms.R` |
-| `output_example/` | Aggregate result tables produced by the script (no individual records); see the mapping below |
 
 ## Data
 
@@ -30,7 +29,7 @@ Rscript gamlss_compare.R                     # -> GAMLSS centiles for Table S7 (
 
 ## Output files and manuscript tables
 
-| File in `output_example/` | Manuscript |
+| File written by the script (`output_v2/tables/` or `output_v2/supplementary/`) | Manuscript |
 |---|---|
 | `table1_baseline.csv` | Table 2 (characteristics of records) |
 | `table2_overall.csv` | Table 3A (overall adjusted differences) and the months-of-development equivalents in Results 3.2 |
